@@ -1,5 +1,5 @@
-# font as data
-assignment #4 for `computational approaches to typography` at ITP
+# this land is your land (type on the move)
+assignment #5 for `computational approaches to typography` at ITP
 
 ### requirements:
 `browser-sync`
@@ -8,6 +8,6 @@ assignment #4 for `computational approaches to typography` at ITP
 
 clone this respository, open a terminal and run the following commands:
 
-```cd font-hacking```
+```cd this-land-is-your-land```
 
 ```browser-sync start --server -f -w```
