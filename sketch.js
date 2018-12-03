@@ -10,7 +10,7 @@ function preload(){
 function setup(){
   createCanvas(window.innerWidth,window.innerHeight);  
   fft = new p5.FFT();
-  sound.amp(0.35);
+  sound.amp(0.25);
 
 }
 
@@ -59,22 +59,20 @@ function draw(){
       textFont("Merriweather");
       text('this type was made for you and me', y, 320);
     }
-
-
     if (sound.currentTime() > 23.9 && sound.currentTime() < 26.35) {
-      textFont("Gamja Flower");
+      textFont("Ubuntu");
       text('there is a serif typeface', y, 320);
     }
     if (sound.currentTime() > 26.35 && sound.currentTime() < 29.04) {
-      textFont("Gamja Flower");
+      textFont("Playfair Display");
       text('its called lexicon', y, 320);
     }
     if (sound.currentTime() > 29.04 && sound.currentTime() < 31.53) {
-      textFont("Roboto");
+      textFont("Fira Sans");
       text('i would have used it', y, 320);
     }
     if (sound.currentTime() > 31.53 && sound.currentTime() < 34.26) {
-      textFont("Fira Sans");
+      textFont("Merriweather");
       text('but its really expensive', y, 320);
     }
     if (sound.currentTime() > 34.26 && sound.currentTime() < 36.65) {
