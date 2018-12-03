@@ -9,16 +9,16 @@ canvas {
   width: 100% !important; 
 }
 
-p {
+div {
   position: absolute;
-  top: 49%;
-  width: 100%;
+  top: 19%;
   margin: 0;
   color: #ffffff;
   font-family: monospace;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
+  border: 3px solid red;
 }
 
 marquee {
