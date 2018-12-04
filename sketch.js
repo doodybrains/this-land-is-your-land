@@ -10,7 +10,7 @@ function preload(){
 function setup(){
   createCanvas(window.innerWidth,window.innerHeight);  
   fft = new p5.FFT();
-  sound.amp(0.18);
+  sound.amp(0.16);
 
 }
 
@@ -68,11 +68,11 @@ function draw(){
       text('its called lexicon', y, 320);
     }
     if (sound.currentTime() > 29.04 && sound.currentTime() < 31.53) {
-      textFont("Lobster");
+      textFont("Open Sans Condensed");
       text('i would have used it', y, 320);
     }
     if (sound.currentTime() > 31.53 && sound.currentTime() < 34.26) {
-      textFont("Fira Sans");
+      textFont("Indie Flower");
       text('but its really expensive', y, 320);
     }
     if (sound.currentTime() > 34.26 && sound.currentTime() < 36.65) {
