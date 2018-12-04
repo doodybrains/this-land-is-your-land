@@ -10,7 +10,7 @@ function preload(){
 function setup(){
   createCanvas(window.innerWidth,window.innerHeight);  
   fft = new p5.FFT();
-  sound.amp(0.25);
+  sound.amp(0.18);
 
 }
 
@@ -35,44 +35,44 @@ function draw(){
       textFont("Merriweather");
       text('this type is your type', y, 320);
     }
-    if (sound.currentTime() > 5.92 && sound.currentTime() < 8.35) {
+    if (sound.currentTime() > 5.92 && sound.currentTime() < 8.40) {
       textFont("Gamja Flower");
       text('this type is my type', y, 320);
     }
-    if (sound.currentTime() > 8.35 && sound.currentTime() < 11.04) {
+    if (sound.currentTime() > 8.40 && sound.currentTime() < 11.04) {
       textFont("Roboto");
       text('from Roboto Bold', y, 320);
     }
     if (sound.currentTime() > 11.04 && sound.currentTime() < 13.61) {
-      textFont("Fira Sans");
+      textFont("Fira Sans Light");
       text('to Fira Sans Light', y, 320);
     }
     if (sound.currentTime() > 13.61 && sound.currentTime() < 16.09) {
       textFont("Playfair Display");
-      text('from Playfair Display Black', y, 320);
+      text('from Playfair Display Italic', y, 320);
     }
     if (sound.currentTime() > 16.09 && sound.currentTime() < 19.71) {
       textFont("Ubuntu");
       text('to Ubuntu Regular', y, 320);
     }
     if (sound.currentTime() > 19.71 && sound.currentTime() < 23.9) {
-      textFont("Merriweather");
+      textFont("Black And White Picture");
       text('this type was made for you and me', y, 320);
     }
     if (sound.currentTime() > 23.9 && sound.currentTime() < 26.35) {
-      textFont("Ubuntu");
+      textFont("Bungee");
       text('there is a serif typeface', y, 320);
     }
     if (sound.currentTime() > 26.35 && sound.currentTime() < 29.04) {
-      textFont("Playfair Display");
+      textFont("Incosolata");
       text('its called lexicon', y, 320);
     }
     if (sound.currentTime() > 29.04 && sound.currentTime() < 31.53) {
-      textFont("Fira Sans");
+      textFont("Lobster");
       text('i would have used it', y, 320);
     }
     if (sound.currentTime() > 31.53 && sound.currentTime() < 34.26) {
-      textFont("Merriweather");
+      textFont("Fira Sans");
       text('but its really expensive', y, 320);
     }
     if (sound.currentTime() > 34.26 && sound.currentTime() < 36.65) {
@@ -80,16 +80,15 @@ function draw(){
       text('it costs three hundred', y, 320);
     }
     if (sound.currentTime() > 36.65 && sound.currentTime() < 39.92) {
-      textFont("Ubuntu");
+      textFont("Gamja Flower");
       text('and ninety one dollars', y, 320);
     }
-    if (sound.currentTime() > 39.92 && sound.currentTime() < 44.3) {
+    if (sound.currentTime() > 39.92 && sound.currentTime() < 44.1) {
       textFont("Merriweather");
       text('is this type made for you and me?', y, 320);
     }
 
-
-    if (sound.currentTime() > 44.3) {
+    if (sound.currentTime() > 44.1) {
       sound.pause();
     }
   }
