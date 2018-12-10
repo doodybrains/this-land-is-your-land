@@ -33,3 +33,10 @@ marquee {
   text-align: center;
   background: transparent;
 }
+
+#time {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
