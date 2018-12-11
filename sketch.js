@@ -19,7 +19,7 @@ function draw(){
   background(0);
   waveform = fft.waveform();
   const timelog = document.getElementById("time");
-  timelog.innerHTML = currenttime;
+  // timelog.innerHTML = currenttime;
 
   for (var i = 0; i < waveform.length; i++){
     var y = map(waveform[i], -0.04, 0.04, 0, 4);
