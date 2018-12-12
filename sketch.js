@@ -56,45 +56,45 @@ function draw(){
     }
     //////////////////////
     if (sound.currentTime() > 23.81 && sound.currentTime() < 26.33) {
-      textSize(80);
-      can.style('letter-spacing', '1.5em');
+      textSize(120);
+      can.style('letter-spacing', '-0.2em');
       textFont("Black And White Picture");
       text('As I was typing', y*1.5, 320);
     }
     if (sound.currentTime() > 26.33 && sound.currentTime() < 29.24) {
-      textSize(84);
-      can.style('letter-spacing', '1.25em');
+      textSize(25);
+      can.style('letter-spacing', '1.5em');
       textFont("Incosolata");
-      text('this series of texts', y*1.5, 320);
+      text('this series of texts', y*0.5, 320);
     }
     if (sound.currentTime() > 29.24 && sound.currentTime() < 31.32) {
-      textSize(86);
-      can.style('letter-spacing', '1.75em');
+      textSize(120);
+      can.style('letter-spacing', '-0.2em');
       textFont("Open Sans Condensed");
       text('I kept on looking', y*1.5, 320);
     }
     if (sound.currentTime() > 31.32 && sound.currentTime() < 34.11) {
-      textSize(88);
-      can.style('letter-spacing', '1.35em');
+      textSize(25);
+      can.style('letter-spacing', '1.5em');
       textFont("Indie Flower");
-      text('at the fonts on Google', y*1.5, 320);
+      text('at the fonts on Google', y*0.5, 320);
     }
     if (sound.currentTime() > 34.11 && sound.currentTime() < 36.56) {
-      textSize(90);
-      can.style('letter-spacing', '1.65em');
+      textSize(120);
+      can.style('letter-spacing', '-0.2em');
       textFont("Playfair Display");
       text('I wished I knew of', y*1.5, 320);
     }
     if (sound.currentTime() > 36.56 && sound.currentTime() < 39.47) {
-      textSize(99);
-      can.style('letter-spacing', '1.15em');
+      textSize(25);
+      can.style('letter-spacing', '0.5em');
       textFont("Gamja Flower");
       text('a better website', y*1.5, 320);
 
     }
     if (sound.currentTime() > 39.47  && sound.currentTime() < 40.06) {
       textSize(120);
-      can.style('letter-spacing', '1.65em');
+      can.style('letter-spacing', '-0.2em');
       textFont("Playfair Display");
       text('but', y*1.5, 320);
     }
