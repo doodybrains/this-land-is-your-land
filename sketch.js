@@ -4,6 +4,7 @@ let waveform;
 let play = 0;
 let currenttime = 0;
 let can;
+let timelog;
 function preload(){
   sound = loadSound('sound.m4a');
 }
@@ -18,7 +19,7 @@ function setup(){
 function draw(){
   background(0);
   waveform = fft.waveform();
-  const timelog = document.getElementById("time");
+  timelog = document.getElementById("press-space-bar");
   // timelog.innerHTML = currenttime;
 
   for (var i = 0; i < waveform.length; i++){
@@ -168,10 +169,11 @@ function draw(){
 function keyPressed() {
   if (play === 0) {
     sound.play();
-    currenttime = sound.currentTime();
+    timelog.style.display = "none";
     play = 1;
   } else {
-    currenttime = sound.currentTime();
+    // currenttime = sound.currentTime();
+    timelog.style.display = "block";
     play = 0;
     sound.pause();
   }
